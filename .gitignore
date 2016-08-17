@@ -1,3 +1,4 @@
 .*
 !.rspec
 !.gitignore
+Gemfile.lock
