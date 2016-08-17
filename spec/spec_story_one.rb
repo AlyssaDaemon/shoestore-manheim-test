@@ -1,4 +1,4 @@
-
+require 'watir'
 require 'spec_helper'
 require 'date'
 
@@ -19,8 +19,8 @@ describe "Each shoe" do
         shoes << { :description => s.td(:class => 'shoe_description').exists?, :img => s.img.exists?, :price => s.td(:class => "shoe_price").exists? }
       end
     end
+    browser.close
   end
-  after { browser.close }
 
   it "should display a small blurb of each shoe" do
     shoes.each do |shoe|
