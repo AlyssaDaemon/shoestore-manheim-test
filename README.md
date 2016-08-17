@@ -1,3 +1,7 @@
 # Readme
 
-<Insert information here>
+```
+ rake
+```
+
+To begin tests.
