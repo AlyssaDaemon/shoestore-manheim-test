@@ -2,3 +2,4 @@
 !.rspec
 !.gitignore
 Gemfile.lock
+tmp/
