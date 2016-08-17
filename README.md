@@ -13,5 +13,4 @@ To begin tests.
 
 * v1.0.0 - Page-Object integration
 
-
-TODO: v2.0.0 - Total Coverage
+* v2.0.0 - Total coverage by page
